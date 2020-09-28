@@ -7,6 +7,9 @@
     "dev": "webpack-dev-server --open --config ./build/webpack.dev.conf.js",
     "build": "webpack --config ./build/webpack.build.conf.js"
   },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  },
   "browserslist": [
     "> 1%",
     "last 3 version"
@@ -37,8 +40,12 @@
     "css-loader": "^4.3.0",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.10",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
     "file-loader": "^6.1.0",
     "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.4.2",
     "mini-css-extract-plugin": "^0.11.2",
     "node-sass": "^4.14.1",
     "postcss-loader": "^4.0.2",
