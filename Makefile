@@ -4,5 +4,8 @@ dev:
 publish:
 	npx webpack --config ./build/webpack.build.conf.js
 
+lint:
+	npx eslint --ext .jsx ./src/
+
 logs:
 	git log --oneline --decorate --graph --all
