@@ -21,7 +21,7 @@ module.exports = {
     paths: PATHS,
   },
   entry: {
-    app: PATHS.src,
+    app: `${PATHS.src}/index.jsx`,
   },
   output: {
     filename: `${PATHS.assets}js/[name].[contenthash].js`,
