@@ -40,6 +40,7 @@
   "bugs": {
     "url": "https://github.com/alex-ismailov/webpack-template/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/alex-ismailov/webpack-template#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
