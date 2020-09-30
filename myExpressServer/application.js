@@ -5,11 +5,7 @@ import path from 'path';
 export default () => {
   const app = new Express();
   app.use(cors());
-  app.use(Express.static('public/dist'));
-
-  app.get('/', (req, res) => {
-
-  });
+  app.use(Express.static(path.join(path.resolve(), 'myExpressServer/public/dist')));
 
   return app;
 };
