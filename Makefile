@@ -7,5 +7,5 @@ publish:
 lint:
 	npx eslint --ext .jsx ./src/
 
-logs:
+log:
 	git log --oneline --decorate --graph --all
